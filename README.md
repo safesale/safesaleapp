@@ -1,68 +1,39 @@
-<p align="center">
-  <img src="public/logo192.png" width="120" alt="SafeSale Logo"/>
-</p>
-
-# 🔒 SafeSale
+# SafeSale 🛡️
 
 **Marketplace security made simple.**  
-SafeSale is an escrow-style delivery platform designed for Facebook Marketplace and local peer-to-peer sales. It ensures secure payments, delivery handshakes, and buyer/seller peace of mind.
+A secure delivery and escrow system for Facebook Marketplace and beyond.
 
 ---
 
 ## 🚀 Features
+- 🔐 Escrow-based transaction protection
+- 📦 Integrated with courier services
+- 🔑 PIN verification for buyers/sellers
+- 💬 In-app communication
+- 📱 Mobile-first design
 
-- ✅ Secure payment via escrow PIN
-- 📦 Delivery partner integration
-- 👤 Buyer & seller verification
-- 🔔 Real-time updates and alerts
-- 🌐 Optimized for mobile and desktop
+---
+
+## 📲 How It Works
+1. **Buyer and Seller agree** to a sale.
+2. **Buyer pays SafeSale** (escrow holds funds).
+3. **Courier picks up item** from seller.
+4. **Buyer receives item + enters PIN** to confirm.
+5. **Funds released** to seller securely.
 
 ---
 
 ## 🛠️ Tech Stack
-
-- ⚛️ React (Create React App)
-- 🔥 Firebase (for backend, coming soon)
-- 🎨 CSS / Styled Components
-- 🗃️ Git + GitHub for version control
+- React.js
+- Firebase Hosting
+- GitHub for version control
 
 ---
 
-## 🔧 Getting Started
+## 📦 Installation
 
-### 1. Clone the repository
 ```bash
 git clone https://github.com/safesale/safesaleapp.git
 cd safesaleapp
-```
-
-### 2. Install dependencies
-```bash
 npm install
-```
-
-### 3. Start the development server
-```bash
 npm start
-```
-
-Your app should now be live at `http://localhost:3000`
-
----
-
-## 📸 Preview
-
-![SafeSale Preview](public/logo192.png)
-
----
-
-## 📬 Contact
-
-Created by [Ben Reid](https://github.com/safesale)  
-Have feedback or want to contribute? PRs welcome!
-
----
-
-## 🪪 License
-
-This project is licensed under the [MIT License](LICENSE).
